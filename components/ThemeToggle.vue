@@ -1,7 +1,7 @@
 <template>
   <button @click="toggleTheme" class="toggleTheme">
-    <span v-if="isDark" class="iconDark"></span>
-    <span v-else class="iconLight"></span>
+    <img v-if="isDark" src="/public/icons/moon_lpyqlab1362n.svg" width="24" height="24" class="iconLight" alt="Темная тема" />
+    <img v-else src="/public/icons/sun.svg" width="24" height="24" class="iconDark" alt="Светлая тема" />
   </button>
 </template>
 
@@ -18,6 +18,14 @@ function toggleTheme() {
 
 <style lang="scss">
 .toggleTheme {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
   background: none;
   border: none;
   cursor: pointer;
@@ -29,15 +37,5 @@ function toggleTheme() {
   display: block;
   width: 24px;
   height: 24px;
-}
-
-.iconDark {
-  background: yellow;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.iconLight {
-  background: orangered;
 }
 </style>

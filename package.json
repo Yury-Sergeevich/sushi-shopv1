@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
     "nuxt": "^3.13.2",
+    "radix-vue": "^1.9.8",
     "vue": "latest",
     "vue-router": "latest"
   },

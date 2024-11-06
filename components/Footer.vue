@@ -6,4 +6,11 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.footer {
+  padding: 10px 10px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+</style>

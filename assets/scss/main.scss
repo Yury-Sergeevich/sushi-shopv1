@@ -1,4 +1,6 @@
-@import "./reset.scss";
+@use "./reset.scss";
+@use "./global.scss";
+@use "./utils.scss";
 
 body {
   margin: 0;

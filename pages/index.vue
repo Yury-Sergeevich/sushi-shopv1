@@ -1,5 +1,7 @@
 <template>
-  <main class="main">sldkjg</main>
+  <main class="main backgroundMain">
+    <Categories />
+  </main>
 </template>
 
 <script setup>
@@ -13,7 +15,12 @@ definePageMeta({
   flex: 1;
   height: 100%;
   overflow-y: auto;
-  padding-bottom: 60px;
-  padding-top: 60px;
+}
+
+.backgroundMain {
+  background-image: url("../public/img/background/mainBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 </style>
