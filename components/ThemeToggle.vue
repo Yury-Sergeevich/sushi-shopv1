@@ -24,7 +24,7 @@ function toggleTheme() {
   left: 10px;
   top: 0;
   bottom: 0;
-  right: 0;
+
   text-align: center;
   background: none;
   border: none;

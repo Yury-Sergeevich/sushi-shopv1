@@ -24,9 +24,13 @@
 <script setup></script>
 
 <style lang="scss">
+.categoriesList {
+  display: flex;
+  flex-direction: column;
+}
 .categoriesItem {
   width: 150px;
-
+  margin-bottom: 5px;
   background: rgba(29, 29, 29, 0.25);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4.5px);

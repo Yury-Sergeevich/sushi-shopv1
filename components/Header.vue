@@ -1,10 +1,10 @@
 <template>
   <header class="header">
     <div class="headerContainer">
-      <div class="logotype">
+      <NuxtLink to="/" class="logotype">
         <span class="supTitle">доставка еды</span>
         <p class="mainTitleText">Наши суши</p>
-      </div>
+      </NuxtLink>
       <ThemeToggle />
     </div>
   </header>
@@ -21,6 +21,7 @@
 }
 
 .logotype {
+  display: block;
   margin: auto;
   padding: 5px 10px;
   border: 1px solid hwb(0 21% 79% / 0.342);
@@ -42,12 +43,12 @@
 }
 
 .dark .mainTitleText {
-  color: #dadada;
-  text-shadow: 4px 4px 5px #2e2e2e;
+  color: #ff1a1e;
+  text-shadow: 4px 4px 5px #121212;
 }
 
 .dark .supTitle {
-  color: #c4c4c4;
+  color: #ff3a3e;
 }
 
 .supTitle {
@@ -60,6 +61,5 @@
   font-weight: 300;
   letter-spacing: 0.03%;
   color: #535353;
-  text-shadow: 0 -1px #6a6a6a;
 }
 </style>
